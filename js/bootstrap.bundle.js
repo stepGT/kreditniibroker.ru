@@ -3370,7 +3370,7 @@
           return a.concat(b);
         }
       }, [])
-      // Here we convert the string values into number values (in px)
+      // Here we convert.svg the string values into number values (in px)
       .map(function (str) {
         return toValue(str, measurement, popperOffsets, referenceOffsets);
       });

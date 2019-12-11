@@ -1,0 +1,89 @@
+.top_header {
+  height: 61px;
+  background: #fff;
+}
+.top_header__phone {
+  background: url('../svg/phone.svg') no-repeat 0 0 transparent;
+}
+.top_header__email {
+  background: url('../svg/convert.svg') no-repeat 0 10% transparent;
+}
+.top_header__phone_number {
+  font-family: sans-serif, Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333;
+}
+.top_header__mailto {
+  font-family: sans-serif, Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  color: #3363be;
+}
+.top_header__time {
+  font-family: sans-serif, Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #333;
+}
+.header {
+  background: #333a5e;
+  height: 732px
+}
+.header_menu {
+  background: #333a5e;
+}
+.header_menu ul {
+
+}
+.header_menu ul li {
+  display: inline-block;
+}
+.header_menu ul li:before {
+  content: url('../svg/galka.svg');
+}
+.header__info {
+  color: #fff;
+}
+.header__info h1 {
+  font-family: sans-serif, Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+}
+.header__info h2 {
+  font-family: sans-serif, Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 53px;
+}
+.header__info h3 {
+  font-family: sans-serif, Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+}
+.header__form {
+  background: #fff;
+  width: 555px;
+  height: 548px;
+}
+.header__form form label {
+  display: block;
+}
+.header__form form h3 {
+  color: #3363be;
+}
+.header__menu ul li {
+  display: inline-block;
+}
