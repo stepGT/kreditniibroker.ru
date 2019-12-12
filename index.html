@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="favicon.ico" rel="icon" type="image/x-icon"/>
     <title>БИ</title>
 </head>
 <body>
 <div class="container-fluid">
     <div class="row top_header">
         <div class="col-6">
-            <span class="top_header__phone_number">+7 981 804 45 10</span>
-            <span class="top_header__time">Пн - Пт с 10:00 до 20:00</span>
+            <span class="top_header__phone_number">+7 981-804-45-10</span>
+            <span class="top_header__time">ПН - ПТ с 10:00 до 20:00</span>
         </div>
 
         <div class="col-6 top_header__email">
@@ -24,7 +25,7 @@
     <div class="row header">
         <div class="col-6">
             <div class="header__info">
-                <h2>Бизнес<span>Инвест</span></h2>
+                <div class="header__info_logotype"></div>
                 <h1>Поможем получить<br>кредит</h1>
                 <h3>Команда опытных специалистов<br>
                     для решения Ваших задач!</h3>
@@ -35,13 +36,13 @@
                 <form action="">
                     <h3>Оставьте заявку на бесплатную консультацию</h3>
                     <div style="position:relative;">
-                        <label for="time">Срок</label>
+                        <label for="time">Сумма</label>
                         <span class="header__form_sign">&#8381;</span>
                         <input value="100 000" id="time"/>
                     </div>
                     <div style="position:relative;">
-                        <label for="summ">Сумма кредита</label>
-                        <span class="header__form_sign">Мес.</span>
+                        <label for="summ">Срок</label>
+                        <span class="header__form_sign">Мес. <span>Лет</span></span>
                         <input value="24" id="summ"/>
                     </div>
                     <div>
@@ -50,19 +51,20 @@
                     </div>
                     <div>
                         <label for="phone"></label>
-                        <input placeholder="Телефон" id="phone"/>
+                        <input placeholder="+7" id="phone"/>
                     </div>
                     <div class="header__form__result">
                         <div>Ежемесячный платеж</div>
                         <div class="header__form__result_digit">4 702 &#8381;</div>
                     </div>
-                    <button class="header__form__button">Получить консультацию</button>
+                    <div class="header__form__button">
+                        <button>Получить консультацию</button>
+                    </div>
+
                 </form>
             </div>
         </div>
-    </div>
-    <div class="row header_menu">
-        <div class="col">
+        <div class="col header_menu">
             <ul>
                 <li>Кредит для бизнеса</li>
                 <li>Потребительский кредит</li>
@@ -74,6 +76,47 @@
         </div>
     </div>
 
+    <div class="row under_header">
+        <div class="col">
+            <div class="row under_header__inner">
+                <div class="col-4 under_header__text">
+                    Все, что нужно — это связаться с нашим специалистом, приехать на встречу<br>
+                    с паспортом и забрать деньги из банка
+                </div>
+                <div class="col-4 under_header__text">
+                    Мы работаем в рамках закона и<br>сотрудничаем с лучшими банками.
+                </div>
+                <div class="col-4 under_header__text">
+                    Быстро, выгодно, без проблем!
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row top_content">
+        <div class="col">
+            <h2>Лучшие условия в банках Москвы и Московской области</h2>
+            <div class="row under_header__inner">
+                <div class="col-6">
+                    <h5>Без предоплат и скрытых комиссий</h5>
+                    <ul>
+                        <li>Проверка кредитной истории</li>
+                        <li>Подбор оптимального предложения</li>
+                        <li>Бесплатная помощь в оформлении документов</li>
+                        <li>Подача заявок</li>
+                        <li>Получение одобрений с пониженной ставкой и без страховок.</li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <h5>Индивидуальный подход</h5>
+                    <p>Команда опытных специалистов, способных решить любой вопрос
+                    кредитования – экономят Ваше время и деньги. Оказываем помощь в
+                    вопросах финансов при помощи многих финансовых структур.
+                    Индивидуальный подход и качество гарантируем.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <script src="js/jquery-3.4.1.slim.min.js"></script>
 <!--<script src="js/popper.min.js"></script>-->
