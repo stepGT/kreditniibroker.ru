@@ -9,18 +9,25 @@
 .top_header {
   height: 61px;
   background: #fff;
+  width: 1200px;
+  margin: 0 auto;
+}
+.header__inner {
+  width: 1200px;
+  margin: 0 auto;
 }
 .top_header__phone {
-  background: url('../svg/phone.svg') no-repeat 0 0 transparent;
+  text-align: left;
+}
+.top_header__email {
+  text-align: right;
 }
 .top_header__phone_number {
   font-weight: bold;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 55px;
   color: #333;
-  position: relative;
-  top: 25%;
-  left: 32%;
+  margin-right: 20px;
 }
 .top_header__phone_number:before {
   content: url('../svg/phone.svg');
@@ -29,12 +36,9 @@
 }
 .top_header__mailto {
   font-size: 14px;
-  line-height: 16px;
+  line-height: 55px;
   text-align: right;
   color: #3363be;
-  position: relative;
-  top: 25%;
-  left: 40%;
 }
 .top_header__mailto:before {
   content: url('../svg/convert.svg');
@@ -43,12 +47,9 @@
   font-size: 14px;
   line-height: 16px;
   color: #333;
-  position: relative;
-  top: 25%;
-  left: 33%;
 }
 .header {
-  background: url(../img/header.png) no-repeat 55% 0 transparent;
+  background: url(../svg/header.svg) no-repeat 45% 0 transparent;
   height: 730px;
 }
 .header_menu ul {
@@ -66,11 +67,10 @@
 }
 .header__info {
   color: #fff;
-  margin-left: 32%;
-  margin-top: 10%;
+  margin-top: 15%;
 }
 .header__info_logotype {
-  background: url(../img/logotype.png) no-repeat 0 0 transparent;
+  background: url(../svg/logotype.svg) no-repeat 0 0 transparent;
   width: 312px;
   height: 39px;
 }
@@ -188,7 +188,7 @@
   height: 395px;
 }
 .under_header__inner {
-  width: 70%;
+  width: 1200px;
   margin: 1.5% auto;
 }
 .under_header__text {
@@ -205,6 +205,6 @@
   text-align: center;
   font-size: 24px;
   line-height: 36px;
-  color: #333333;
+  color: #333;
   margin: 2% 0;
 }
