@@ -7,7 +7,7 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
-.header__inner {
+.header__inner, .advantage, .tariff {
   width: 1200px;
   margin: 0 auto;
 }
@@ -95,7 +95,7 @@ body {
   height: 548px;
   padding-left: 70px;
   padding-right: 70px;
-  margin-top: 60px;
+  margin: 60px auto;
   padding-top: 30px;
 }
 .header__form_sign {
@@ -163,6 +163,20 @@ body {
   font-size: 18px;
   line-height: 21px;
 }
+.tariff__button button {
+  background: #3363be;
+  width: 318px;
+  height: 56px;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+.tariff__button {
+  margin: 5% auto 10% auto;
+}
 .header__form__result {
   color: #7e91b4;
   text-align: center;
@@ -219,10 +233,6 @@ body {
   margin: 2% 0;
   font-weight: 600;
 }
-.advantage {
-  width: 1200px;
-  margin: 0 auto;
-}
 .advantage h2 {
   font-weight: 600;
   font-size: 24px;
@@ -247,4 +257,39 @@ body {
 .advantage_1, .advantage_2, .advantage_3,
 .advantage_4, .advantage_5, .advantage_6 {
   text-align: center;
+}
+.advantage__item {
+  margin-bottom: 3%;
+}
+.tariff {
+  margin-top: 5%;
+}
+.tariff .tariff__header {
+  background: #f2c94c;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #333;
+  padding: 10px;
+  height: 74px;
+}
+.tariff .tariff__body {
+  background: #f3f7ff;
+  height: 148px;
+}
+.tariff__body_p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  color: #3363be;
+  padding: 10px;
+}
+.tariff__body_span {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #333;
+  padding: 10px;
 }
