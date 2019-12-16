@@ -8,7 +8,7 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
-.header__inner, .advantage, .tariff {
+.header__inner, .advantage, .tariff, .inner_partners, .inner_footer_block {
   width: 1200px;
   margin: 0 auto;
 }
@@ -255,8 +255,7 @@ body {
   color: #333;
   width: 320px;
 }
-.advantage_1, .advantage_2, .advantage_3,
-.advantage_4, .advantage_5, .advantage_6 {
+.advantage__item {
   text-align: center;
 }
 .advantage__item {
@@ -293,4 +292,129 @@ body {
   text-align: center;
   color: #333;
   padding: 10px;
+}
+.partners {
+  background: #f3f7ff;
+}
+.partners h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 3% 0;
+}
+.partners .partners_item {
+  width: 124px;
+  height: 36px;
+}
+.inner_partners_block {
+  margin-bottom: 20px;
+}
+.inner_partners_block .row {
+  margin: 2% 0;
+}
+.partners .reness {
+  background: url(../svg/partners/reness.svg) no-repeat;
+}
+.partners .oykr {
+  background: url(../svg/partners/oykr.svg) no-repeat;
+}
+.partners .standart {
+  background: url(../svg/partners/standart.svg) no-repeat;
+}
+.partners .citibank {
+  background: url(../svg/partners/citibank.svg) no-repeat;
+}
+.partners .tinkoff {
+  background: url(../svg/partners/tinkoff.svg) no-repeat;
+}
+.partners .raifai {
+  background: url(../svg/partners/raifai.svg) no-repeat;
+}
+.partners .absol {
+  background: url(../svg/partners/absol.svg) no-repeat;
+}
+.partners .sofkom {
+  background: url(../svg/partners/sofkom.svg) no-repeat;
+}
+.partners .otp {
+  background: url(../svg/partners/otp.svg) no-repeat;
+}
+.partners .sberbank {
+  background: url(../svg/partners/sberbank.svg) no-repeat;
+}
+.partners .uralsib {
+  background: url(../svg/partners/uralsib.svg) no-repeat;
+}
+.partners .rosgos {
+  background: url(../svg/partners/rosgos.svg) no-repeat;
+}
+.partners .transkap {
+  background: url(../svg/partners/transkap.svg) no-repeat;
+}
+.partners .gazprom {
+  background: url(../svg/partners/gazprom.svg) no-repeat;
+}
+.partners .mts {
+  background: url(../svg/partners/mts.svg) no-repeat;
+}
+.partners .uni {
+  background: url(../svg/partners/uni.svg) no-repeat;
+}
+.partners .rossel {
+  background: url(../svg/partners/rossel.svg) no-repeat;
+}
+.partners .loko {
+  background: url(../svg/partners/loko.svg) no-repeat;
+}
+.partners .zenit {
+  background: url(../svg/partners/zenit.svg) no-repeat;
+}
+.partners .sviaz {
+  background: url(../svg/partners/sviaz.svg) no-repeat;
+}
+.partners .metall {
+  background: url(../svg/partners/metall.svg) no-repeat;
+}
+.partners .mkb {
+  background: url(../svg/partners/mkb.svg) no-repeat;
+}
+.partners .pronsviaz {
+  background: url(../svg/partners/pronsviaz.svg) no-repeat;
+}
+.partners .delta {
+  background: url(../svg/partners/delta.svg) no-repeat;
+}
+.partners .pochta {
+  background: url(../svg/partners/pochta.svg) no-repeat;
+}
+.partners .hkb {
+  background: url(../svg/partners/hkb.svg) no-repeat;
+}
+.partners .rosbank {
+  background: url(../svg/partners/rosbank.svg) no-repeat;
+}
+.partners .vtb {
+  background: url(../svg/partners/vtb.svg) no-repeat;
+}
+.map {
+  background: #c4c4c4;
+  height: 300px;
+}
+.footer {
+  background: #e5e5e5;
+  height: 100px;
+  line-height: 100px;
+}
+.inner_footer_block__description {
+  font-size: 16px;
+  line-height: 16px;
+  color: #354d7a;
+}
+.inner_footer_block__address {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: right;
+  color: #333;
 }
