@@ -420,15 +420,26 @@ body {
 }
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  body {
+    min-width: 100%;
+  }
+  .header__inner,
+  .advantage,
+  .tariff,
+  .inner_partners,
+  .inner_footer_block {
+    width: auto;
+  }
   .top_header {
     height: 94px;
-    background: #3b5189;
     width: auto;
-    margin-right: -15px;
-    margin-left: -15px;
+    background: #3b5189;
   }
   .header__info_logotype {
-    margin: auto;
+    background: url(../svg/mobile/mobile_logotype.svg) no-repeat 0 0 transparent;
+    margin: 3% auto;
+    width: 177.87px;
+    height: 22px;
   }
   .top_header__phone_number, .top_header__mailto a {
     color: #fff;
@@ -441,5 +452,34 @@ body {
   }
   .top_header__mailto:before {
     content: url(../svg/mobile/mobile_mail.png);
+  }
+  .header {
+    background: none;
+    height: auto;
+  }
+  .under_header__inner {
+    width: auto;
+  }
+  .top_header__phone_number {
+    font-size: 14px;
+  }
+  .header__form {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  .header__form form input {
+    width: 100%;
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .header__form form h3 {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 5%;
+  }
+  .header__form form label {
+    top: 15px;
+    right: 45%;
   }
 }
