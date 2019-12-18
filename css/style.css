@@ -418,3 +418,28 @@ body {
   text-align: right;
   color: #333;
 }
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .top_header {
+    height: 94px;
+    background: #3b5189;
+    width: auto;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .header__info_logotype {
+    margin: auto;
+  }
+  .top_header__phone_number, .top_header__mailto a {
+    color: #fff;
+  }
+  .top_header__phone {
+    text-align: center;
+  }
+  .top_header__phone_number:before {
+    content: url(../svg/mobile/mobile_phone.png);
+  }
+  .top_header__mailto:before {
+    content: url(../svg/mobile/mobile_mail.png);
+  }
+}
