@@ -467,6 +467,7 @@ body {
     padding: 0;
     margin: 0;
     width: 100%;
+    height: 520px;
   }
   .header__form form input {
     width: 100%;
@@ -481,5 +482,21 @@ body {
   .header__form form label {
     top: 15px;
     right: 45%;
+  }
+  .header__form__button button {
+    width: 100%;
+  }
+  .under_header {
+    height: auto;
+  }
+  .under_header__line {
+    background: url(../svg/mobile/mobile_line.svg);
+    width: 40px;
+    height: 2px;
+    margin: 5% auto;
+  }
+  .under_header__text {
+    font-size: 14px;
+    line-height: 22px;
   }
 }
