@@ -506,6 +506,9 @@ body {
   body {
     min-width: 100%;
   }
+  .container-fluid .top_header {
+    display: none;
+  }
   .header__inner,
   .advantage,
   .tariff,
@@ -612,5 +615,10 @@ body {
   }
   .partners {
     height: 100%;
+  }
+}
+@media (min-width: 575.98px) {
+  .mobile_top_head {
+    display: none;
   }
 }
