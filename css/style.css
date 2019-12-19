@@ -307,6 +307,10 @@ body {
   width: 124px;
   height: 36px;
 }
+.partners .partners_item_mobile {
+  height: 19.16px;
+  width: 66px;
+}
 .inner_partners_block {
   margin-bottom: 20px;
 }
@@ -316,90 +320,170 @@ body {
 .partners .reness {
   background: url(../svg/partners/reness.svg) no-repeat;
 }
+.partners .reness_mobile {
+  background: url(../svg/partners/reness_mobile.svg) no-repeat;
+}
 .partners .oykr {
   background: url(../svg/partners/oykr.svg) no-repeat;
+}
+.partners .oykr_mobile {
+  background: url(../svg/partners/oykr_mobile.svg) no-repeat;
 }
 .partners .standart {
   background: url(../svg/partners/standart.svg) no-repeat;
 }
+.partners .standart_mobile {
+  background: url(../svg/partners/standart_mobile.svg) no-repeat;
+}
 .partners .citibank {
   background: url(../svg/partners/citibank.svg) no-repeat;
+}
+.partners .citibank_mobile {
+  background: url(../svg/partners/citibank_mobile.svg) no-repeat;
 }
 .partners .tinkoff {
   background: url(../svg/partners/tinkoff.svg) no-repeat;
 }
+.partners .tinkoff_mobile {
+  background: url(../svg/partners/tinkoff_mobile.svg) no-repeat;
+}
 .partners .raifai {
   background: url(../svg/partners/raifai.svg) no-repeat;
+}
+.partners .raifai_mobile {
+  background: url(../svg/partners/raifai_mobile.svg) no-repeat;
 }
 .partners .absol {
   background: url(../svg/partners/absol.svg) no-repeat;
 }
+.partners .absol_mobile {
+  background: url(../svg/partners/absol_mobile.svg) no-repeat;
+}
 .partners .sofkom {
   background: url(../svg/partners/sofkom.svg) no-repeat;
+}
+.partners .sofkom_mobile {
+  background: url(../svg/partners/sofkom_mobile.svg) no-repeat;
 }
 .partners .otp {
   background: url(../svg/partners/otp.svg) no-repeat;
 }
+.partners .otp_mobile {
+  background: url(../svg/partners/otp_mobile.svg) no-repeat;
+}
 .partners .sberbank {
   background: url(../svg/partners/sberbank.svg) no-repeat;
+}
+.partners .sberbank_mobile {
+  background: url(../svg/partners/sberbank_mobile.svg) no-repeat;
 }
 .partners .uralsib {
   background: url(../svg/partners/uralsib.svg) no-repeat;
 }
+.partners .uralsib_mobile {
+  background: url(../svg/partners/uralsib_mobile.svg) no-repeat;
+}
 .partners .rosgos {
   background: url(../svg/partners/rosgos.svg) no-repeat;
+}
+.partners .rosgos_mobile {
+  background: url(../svg/partners/rosgos_mobile.svg) no-repeat;
 }
 .partners .transkap {
   background: url(../svg/partners/transkap.svg) no-repeat;
 }
+.partners .transkap_mobile {
+  background: url(../svg/partners/transkap_mobile.svg) no-repeat;
+}
 .partners .gazprom {
   background: url(../svg/partners/gazprom.svg) no-repeat;
+}
+.partners .gazprom_mobile {
+  background: url(../svg/partners/gazprom_mobile.svg) no-repeat;
 }
 .partners .mts {
   background: url(../svg/partners/mts.svg) no-repeat;
 }
+.partners .mts_mobile {
+  background: url(../svg/partners/mts_mobile.svg) no-repeat;
+}
 .partners .uni {
   background: url(../svg/partners/uni.svg) no-repeat;
+}
+.partners .uni_mobile {
+  background: url(../svg/partners/uni_mobile.svg) no-repeat;
 }
 .partners .rossel {
   background: url(../svg/partners/rossel.svg) no-repeat;
 }
+.partners .rossel_mobile {
+  background: url(../svg/partners/rossel_mobile.svg) no-repeat;
+}
 .partners .loko {
   background: url(../svg/partners/loko.svg) no-repeat;
+}
+.partners .loko_mobile {
+  background: url(../svg/partners/loko_mobile.svg) no-repeat;
 }
 .partners .zenit {
   background: url(../svg/partners/zenit.svg) no-repeat;
 }
+.partners .zenit_mobile {
+  background: url(../svg/partners/zenit_mobile.svg) no-repeat;
+}
 .partners .sviaz {
   background: url(../svg/partners/sviaz.svg) no-repeat;
+}
+.partners .sviaz_mobile {
+  background: url(../svg/partners/sviaz_mobile.svg) no-repeat;
 }
 .partners .metall {
   background: url(../svg/partners/metall.svg) no-repeat;
 }
+.partners .metall_mobile {
+  background: url(../svg/partners/metall_mobile.svg) no-repeat;
+}
 .partners .mkb {
   background: url(../svg/partners/mkb.svg) no-repeat;
+}
+.partners .mkb_mobile {
+  background: url(../svg/partners/mkb_mobile.svg) no-repeat;
 }
 .partners .pronsviaz {
   background: url(../svg/partners/pronsviaz.svg) no-repeat;
 }
+.partners .pronsviaz_mobile {
+  background: url(../svg/partners/pronsviaz_mobile.svg) no-repeat;
+}
 .partners .delta {
   background: url(../svg/partners/delta.svg) no-repeat;
+}
+.partners .delta_mobile {
+  background: url(../svg/partners/delta_mobile.svg) no-repeat;
 }
 .partners .pochta {
   background: url(../svg/partners/pochta.svg) no-repeat;
 }
+.partners .pochta_mobile {
+  background: url(../svg/partners/pochta_mobile.svg) no-repeat;
+}
 .partners .hkb {
   background: url(../svg/partners/hkb.svg) no-repeat;
+}
+.partners .hkb_mobile {
+  background: url(../svg/partners/hkb_mobile.svg) no-repeat;
 }
 .partners .rosbank {
   background: url(../svg/partners/rosbank.svg) no-repeat;
 }
+.partners .rosbank_mobile {
+  background: url(../svg/partners/rosbank_mobile.svg) no-repeat;
+}
 .partners .vtb {
   background: url(../svg/partners/vtb.svg) no-repeat;
 }
-.map {
-  background: #c4c4c4;
-  height: 300px;
+.partners .vtb_mobile {
+  background: url(../svg/partners/vtb_mobile.svg) no-repeat;
 }
 .footer {
   background: #e5e5e5;
@@ -520,5 +604,14 @@ body {
   .advantage p {
     font-size: 14px;
     line-height: 22px;
+  }
+  .inner_partners_block {
+    margin-bottom: 0;
+  }
+  .inner_partners_block__mobile {
+    margin: 2% 0;
+  }
+  .partners {
+    height: 100%;
   }
 }
