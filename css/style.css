@@ -99,27 +99,15 @@ body {
   margin: 60px auto;
   padding-top: 30px;
 }
-.header__form_sign {
-  position: absolute;
-  right: 10%;
-  top: 50%;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 18px;
-  line-height: 25px;
-  text-align: right;
-  color: #354d7a;
-}
 .header__form_sign span {
   color: #7e91b4;
 }
 .header__form form label {
-  display: block;
+  display: none;
   color: #354d7a;
   font-size: 12px;
   position: relative;
-  top: 15px;
-  right: 125px;
+  top: 20px;
 }
 .header__form form h3 {
   color: #354d7a;
@@ -128,12 +116,9 @@ body {
   font-weight: normal;
   text-align: center;
 }
-.header__form form div {
-  text-align: center;
-}
 .header__form form input {
   width: 280px;
-  height: 50px;
+  height: 69px;
   background: transparent;
   outline: none;
   border: none;
@@ -147,9 +132,11 @@ body {
   border-bottom: 1px solid #354d7a;
 }
 .header__form form ::placeholder {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
   color: #7e91b4;
-  opacity: 1;
-  font-weight: normal;
 }
 .header__form__button {
   text-align: center;
@@ -253,12 +240,9 @@ body {
   font-size: 16px;
   line-height: 22px;
   color: #333;
-  width: 320px;
 }
 .advantage__item {
   text-align: center;
-}
-.advantage__item {
   margin-bottom: 3%;
 }
 .tariff {
@@ -487,7 +471,6 @@ body {
 }
 .footer {
   background: #e5e5e5;
-  height: 100px;
 }
 .inner_footer_block__description {
   font-size: 16px;
@@ -565,10 +548,6 @@ body {
     line-height: 28px;
     margin-top: 5%;
   }
-  .header__form form label {
-    top: 15px;
-    right: 45%;
-  }
   .header__form__button button {
     width: 100%;
   }
@@ -611,10 +590,22 @@ body {
     margin-bottom: 0;
   }
   .inner_partners_block__mobile {
-    margin: 2% 0;
+    margin: 5% 0;
   }
   .partners {
     height: 100%;
+  }
+  .tariff__button button {
+    width: 100%;
+  }
+  .header__form__button button {
+    font-size: 16px;
+  }
+  .under_header__inner_p {
+    margin: 0;
+  }
+  .under_header__inner {
+    margin: 6.5% auto;
   }
 }
 @media (min-width: 575.98px) {
