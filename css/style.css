@@ -245,6 +245,13 @@ body {
   text-align: center;
   margin-bottom: 3%;
 }
+.tariff__slick .tariff__item {
+  width: 232px !important;
+  margin-right: 0.9%;
+}
+.tariff__slick .tariff__item:first-child {
+  margin-right: 0;
+}
 .tariff {
   margin-top: 5%;
 }
@@ -608,8 +615,23 @@ body {
     margin: 6.5% auto;
   }
   .tariff .tariff__header {
-    line-height: 74px;
-    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .tariff__body_p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .tariff__body_span {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .tariff__button_slick button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
   }
 }
 @media (min-width: 575.98px) {
