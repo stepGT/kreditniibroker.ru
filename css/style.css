@@ -639,6 +639,12 @@ body {
     display: none;
   }
 }
+
+@media (min-width: 768px) {
+  .header__form form h3 {
+    width: 380px;
+  }
+}
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 768px) {
   body {
@@ -681,9 +687,6 @@ body {
   }
   .header__form {
     margin: 0 auto;
-  }
-  .header__form form h3 {
-    width: 380px;
   }
   .header__form form {
     text-align: center;
