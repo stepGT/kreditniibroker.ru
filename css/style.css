@@ -641,8 +641,17 @@ body {
 }
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 768px) {
+  body {
+    min-width: 100%;
+  }
+  .header__inner, .advantage, .tariff, .inner_partners, .inner_footer_block {
+    width: auto;
+  }
+  .under_header__inner {
+    width: auto;
+  }
   .top_header {
-
+    width: auto;
   }
   .top_header__phone_number {
     font-size: 20px;
@@ -660,5 +669,23 @@ body {
   }
   .header_menu ul li {
     margin: 1% 0;
+  }
+  .under_header {
+    height: 236px;
+  }
+  .under_header__line {
+    background: url(../svg/mobile/mobile_line.svg);
+    width: 40px;
+    height: 2px;
+    margin: 1% auto;
+  }
+  .header__form {
+    margin: 0 auto;
+  }
+  .header__form form h3 {
+    width: 380px;
+  }
+  .header__form form {
+    text-align: center;
   }
 }
