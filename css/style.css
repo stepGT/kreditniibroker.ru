@@ -492,7 +492,7 @@ body {
   color: #333;
 }
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+@media (max-width: 576px) {
   body {
     min-width: 100%;
   }
@@ -634,8 +634,31 @@ body {
     line-height: 22px;
   }
 }
-@media (min-width: 575.98px) {
+@media (min-width: 576px) {
   .mobile_top_head {
     display: none;
+  }
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+  .top_header {
+
+  }
+  .top_header__phone_number {
+    font-size: 20px;
+  }
+  .header__info {
+    margin: 5% 0 0 5%;
+  }
+  .header__info h1 {
+    font-size: 60px;
+    margin-top: 5%;
+  }
+  .header_menu ul {
+    text-align: inherit;
+    padding-left: 4%;
+  }
+  .header_menu ul li {
+    margin: 1% 0;
   }
 }
