@@ -644,6 +644,9 @@ body {
   .header__form form h3 {
     width: 380px;
   }
+  .under_header {
+    height: 236px;
+  }
 }
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 768px) {
@@ -676,9 +679,7 @@ body {
   .header_menu ul li {
     margin: 1% 0;
   }
-  .under_header {
-    height: 236px;
-  }
+
   .under_header__line {
     background: url(../svg/mobile/mobile_line.svg);
     width: 40px;
