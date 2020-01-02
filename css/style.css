@@ -61,6 +61,19 @@ body {
   content: url('../svg/galka.svg');
   padding-right: 3px;
 }
+.header_menu .header_menu__inner .header_menu__inner_item {
+  display: inline-block;
+  color: #fff;
+  padding: 4px;
+  margin-bottom: 10px;
+}
+.header_menu .header_menu__inner .row {
+  margin: 0 4%;
+}
+.header_menu .header_menu__inner .header_menu__inner_item:before {
+  content: url('../svg/galka.svg');
+  padding-right: 3px;
+}
 .header__info {
   color: #fff;
   margin-top: 15%;
@@ -653,6 +666,11 @@ body {
   body {
     min-width: 100%;
   }
+  .header {
+    height: 520px;
+    background-size: cover;
+    background-position: 50% 0;
+  }
   .header__inner, .advantage, .tariff, .inner_partners, .inner_footer_block {
     width: auto;
   }
@@ -688,8 +706,12 @@ body {
   }
   .header__form {
     margin: 0 auto;
+    background: #f0f4fc;
   }
   .header__form form {
     text-align: center;
+  }
+  .header__form__wrap {
+    background: #f0f4fc;
   }
 }
