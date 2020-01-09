@@ -490,7 +490,7 @@ body {
   background: url(../svg/partners/vtb_mobile.svg) no-repeat;
 }
 .footer {
-  background: #e5e5e5;
+  background: #ffffff;
 }
 .inner_footer_block__description {
   font-size: 16px;
@@ -508,6 +508,9 @@ body {
 @media (max-width: 576px) {
   body {
     min-width: 100%;
+  }
+  .tariff__slick .tariff__item:first-child {
+    margin-right: 0.9%;
   }
   .container-fluid .top_header {
     display: none;
@@ -652,27 +655,21 @@ body {
     display: none;
   }
 }
-
-@media (min-width: 768px) {
-  .header__form form h3 {
-    width: 380px;
-  }
-  .under_header {
-    height: 236px;
-  }
-}
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 768px) {
   body {
     min-width: 100%;
   }
   .header {
-    height: 520px;
+    height: auto;
     background-size: cover;
     background-position: 50% 0;
   }
   .header__inner, .advantage, .tariff, .inner_partners, .inner_footer_block {
     width: auto;
+  }
+  .header__inner {
+    background: #f0f4fc;
   }
   .under_header__inner {
     width: auto;
@@ -697,7 +694,6 @@ body {
   .header_menu ul li {
     margin: 1% 0;
   }
-
   .under_header__line {
     background: url(../svg/mobile/mobile_line.svg);
     width: 40px;
@@ -713,5 +709,16 @@ body {
   }
   .header__form__wrap {
     background: #f0f4fc;
+  }
+}
+@media (min-width: 768px) {
+  .header__form form h3 {
+    width: 380px;
+  }
+  .under_header {
+    height: 236px;
+  }
+  .header__inner {
+    background: none;
   }
 }

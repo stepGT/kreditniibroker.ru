@@ -1,5 +1,6 @@
 $(function () {
   $('.tariff__slick').slick({
+    infinite: false,
     centerMode: true,
     centerPadding: '6%',
     responsive: [
@@ -7,7 +8,7 @@ $(function () {
         breakpoint: 480,
         settings: {
           arrows: false,
-          centerMode: true,
+          centerMode: false,
           centerPadding: '40px',
           slidesToShow: 1
         }
