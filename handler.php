@@ -1,12 +1,12 @@
 <?php
 $to = "stepgt@mail.ru";
-//$subject = "Заявку на бесплатную консультацию";
-$subject = "This is subject";
+$subject = "Заявку на бесплатную консультацию";
+//$subject = "This is subject";
 
-$message = "<p>NAME:$_POST[name]</p>";
-$message .= "<p>PHONE: $_POST[phone]</p>";
-$message .= "<p>SUMM: ' . $_POST[summ]</p>";
-$message .= "<p>TIME: ' . $_POST[time]</p>";
+$message = "<p>Имя:$_POST[name]</p>";
+$message .= "<p>Телефон: $_POST[phone]</p>";
+$message .= "<p>Сумма: . $_POST[summ]</p>";
+$message .= "<p>Срок: . $_POST[time]</p>";
 
 
 $header = "From:abc@somedomain.com \r\n";
