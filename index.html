@@ -58,23 +58,23 @@
             </div>
             <div class="d-md-none d-lg-block col-12 col-xl-6 col-lg-6 col-md-6 col-sm-6">
                 <div class="header__form">
-                    <form action="#">
+                    <form method="post" action="handler.php">
                         <h3>Оставьте заявку на бесплатную консультацию</h3>
                         <div class="header__form_input">
-                            <label for="time">Сумма, &#8381;</label>
-                            <input placeholder="Сумма в рублях" id="time"/>
+                            <label for="summ">Сумма, &#8381;</label>
+                            <input name="summ" placeholder="Сумма в рублях" id="summ"/>
                         </div>
                         <div class="header__form_input">
-                            <label for="summ">Срок(лет)</label>
-                            <input placeholder="Срок (лет)" id="summ"/>
+                            <label for="time">Срок(лет)</label>
+                            <input name="time" placeholder="Срок (лет)" id="time"/>
                         </div>
                         <div class="header__form_input">
                             <label for="name"></label>
-                            <input placeholder="Имя" id="name"/>
+                            <input name="name" placeholder="Имя" id="name"/>
                         </div>
                         <div class="header__form_input">
                             <label for="phone"></label>
-                            <input placeholder="+7" id="phone"/>
+                            <input name="phone" placeholder="+7" id="phone"/>
                         </div>
                         <div class="header__form__result">
                             <div>Ежемесячный платеж</div>
