@@ -125,6 +125,9 @@ body {
   position: relative;
   top: 20px;
 }
+.header__form form {
+  text-align: center;
+}
 .header__form form h3 {
   color: #354d7a;
   font-size: 24px;
@@ -160,7 +163,7 @@ body {
   text-align: center;
 }
 .header__form__button button {
-  background: #3363be;
+  background: #ccc;
   width: 280px;
   height: 56px;
   outline: none;
