@@ -144,6 +144,8 @@ body {
   font-size: 24px;
 }
 .header__form form input#name,
+.header__form form input#summ,
+.header__form form input#time,
 .header__form form input#phone {
   border-bottom: 1px solid #354d7a;
 }
@@ -203,7 +205,7 @@ body {
   height: 395px;
 }
 .under_header__inner {
-  /*width: 1200px;*/
+  width: 1200px;
   margin: 1.5% auto;
 }
 .under_header__inner_p {
