@@ -12,6 +12,9 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
+.inner_footer_block {
+  margin-top: 2%;
+}
 .top_header__phone {
   text-align: left;
 }
@@ -192,13 +195,15 @@ body {
 .under_header {
   background: #f2c94c;
   height: 132px;
+  flex-direction: row;
+  align-items: center;
 }
 .top_content {
   background: #f3f7ff;
   height: 395px;
 }
 .under_header__inner {
-  width: 1200px;
+  /*width: 1200px;*/
   margin: 1.5% auto;
 }
 .under_header__inner_p {
@@ -222,6 +227,17 @@ body {
   font-size: 16px;
   line-height: 26px;
   text-align: center;
+}
+.under_header__text:nth-child(2) {
+  padding: 20px;
+}
+.under_header__text:nth-child(3) {
+  padding: 30px;
+}
+.under_header__line_desktop {
+  content: url(../svg/desktop_line.svg);
+  position: absolute;
+  top: 30%;
 }
 .under_header__text:last-child {
   border-right: none;
@@ -492,17 +508,31 @@ body {
 .footer {
   background: #ffffff;
 }
-.inner_footer_block__description {
+.inner_footer_block__item {
   font-size: 16px;
   line-height: 16px;
+  margin-bottom: 3%;
+}
+.inner_footer_block__item_description {
   color: #354d7a;
 }
-.inner_footer_block__address {
+.inner_footer_block__item_address {
+  font-weight: 600;
+  color: #333;
+}
+.inner_footer_block__insta:before {
+  content: url(../svg/insta.svg);
+  padding-right: 10px;
+  vertical-align: sub;
+}
+.inner_footer_block__insta {
+  margin-top: 20px;
+}
+.inner_footer_block__insta a {
+  color: #354D7A;
   font-weight: 600;
   font-size: 16px;
   line-height: 16px;
-  text-align: right;
-  color: #333;
 }
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) {
@@ -710,13 +740,22 @@ body {
   .header__form__wrap {
     background: #f0f4fc;
   }
+  .under_header {
+    height: 236px;
+  }
+  .under_header__text:nth-child(2) {
+    padding: 0;
+  }
+  .under_header__text:nth-child(3) {
+    padding: 0;
+  }
+  .under_header__line_desktop {
+    display: none;
+  }
 }
 @media (min-width: 768px) {
   .header__form form h3 {
     width: 380px;
-  }
-  .under_header {
-    height: 236px;
   }
   .header__inner {
     background: none;

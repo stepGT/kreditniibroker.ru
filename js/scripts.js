@@ -5,11 +5,11 @@ $(function () {
     centerPadding: '6%',
     responsive: [
       {
-        breakpoint: 480,
+        breakpoint: 375,
         settings: {
-          arrows: false,
-          centerMode: false,
-          centerPadding: '40px',
+          arrows: true,
+          centerMode: true,
+          //centerPadding: '10px',
           slidesToShow: 1
         }
       }
