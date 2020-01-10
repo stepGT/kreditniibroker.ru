@@ -522,11 +522,12 @@ body {
 }
 .inner_footer_block__insta:before {
   content: url(../svg/insta.svg);
-  padding-right: 10px;
-  vertical-align: sub;
+  padding-right: 5px;
+  vertical-align: -webkit-baseline-middle;
 }
 .inner_footer_block__insta {
   margin-top: 20px;
+  text-align: right;
 }
 .inner_footer_block__insta a {
   color: #354D7A;
@@ -678,6 +679,12 @@ body {
     font-weight: 600;
     font-size: 16px;
     line-height: 22px;
+  }
+  .inner_footer_block__insta {
+    text-align: left;
+  }
+  .inner_footer_block {
+    margin-top: 5%;
   }
 }
 @media (min-width: 576px) {
