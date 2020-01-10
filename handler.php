@@ -3,9 +3,9 @@ $to = "stepgt@mail.ru, 22012764@mail.ru";
 $subject = "Заявку на бесплатную консультацию";
 //
 $message = "<p>Имя: $_POST[name]</p>";
-$message .= "<p>Телефон: +7$_POST[phone]</p>";
+$message .= "<p>Телефон: $_POST[phone]</p>";
 $message .= "<p>Сумма: $_POST[summ] руб.</p>";
-$message .= "<p>Срок: $_POST[time] мес.</p>";
+$message .= "<p>Срок: $_POST[time] (лет)</p>";
 //
 $header = "From:robot@kreditniibroker.ru \r\n";
 $header .= "Cc:stepgs@yandex.ru \r\n";
