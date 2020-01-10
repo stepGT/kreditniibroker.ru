@@ -164,7 +164,7 @@ body {
   text-align: center;
 }
 .header__form__button button {
-  background: #ccc;
+  background: #3363be;
   width: 280px;
   height: 56px;
   outline: none;
@@ -616,8 +616,6 @@ body {
   }
   .under_header__line {
     background: url(../svg/mobile/mobile_line.svg);
-    width: 40px;
-    height: 2px;
     margin: 5% auto;
   }
   .under_header__text {

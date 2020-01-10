@@ -1,15 +1,14 @@
 $(function () {
   $('.tariff__slick').slick({
-    infinite: false,
     centerMode: true,
-    centerPadding: '6%',
+    centerPadding: '5%',
     responsive: [
       {
-        breakpoint: 375,
+        breakpoint: 480,
         settings: {
-          arrows: true,
+          arrows: false,
           centerMode: true,
-          //centerPadding: '10px',
+          centerPadding: '40px',
           slidesToShow: 1
         }
       }
@@ -17,17 +16,20 @@ $(function () {
   });
   //
   $('.header__form form input').keyup(function () {
-    var empty = false;
+    var header__form_button = $('.header__form button');
+    //
     $('.header__form form').find('input[type="text"]').each(function () {
+      //
       if (($(this).val() == '')) {
-        empty = true;
+        header__form_button.css('opacity', '.7').attr('disabled', 'disabled');
+      }
+      else {
+        header__form_button.css('opacity', '1').removeAttr('disabled');
       }
     });
-    if (empty) {
-      $('.header__form button').css('background', '#ccc').attr('disabled', 'disabled');
-    }
-    else {
-      $('.header__form button').css('background', '#3363be').removeAttr('disabled');
-    }
   });
+
+  $(":input").inputmask();
+
+  $("#phone").inputmask({"mask": "+7 (999) 999-9999"});
 });
