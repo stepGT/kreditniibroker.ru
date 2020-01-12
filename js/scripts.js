@@ -34,8 +34,10 @@ $(function () {
   $('.header__form form').submit(function (e) {
     e.preventDefault();
     $.ajax({
-      url: $(this).attr('action')
-    }).done(function (response) {
+      type: 'POST',
+      url: $(this).attr('action'),
+      data: $(this).serialize()
+    }).done(function () {
       var $modal = $('.modal');
       $modal.modal('show');
       $modal.on('hide.bs.modal', function (e) {
