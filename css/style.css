@@ -26,7 +26,7 @@ body {
   font-size: 18px;
   line-height: 55px;
   color: #333;
-  margin-right: 20px;
+  /*margin-right: 20px;*/
 }
 .top_header__phone_number:before {
   content: url('../svg/phone.svg');
@@ -185,7 +185,7 @@ body {
   text-align: center;
 }
 .tariff__button {
-  margin: 5% auto 10% auto;
+  margin: 5% auto;
 }
 .header__form__result {
   color: #7e91b4;
@@ -327,7 +327,7 @@ body {
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
-  margin: 3% 0;
+  padding-top: 30px;
 }
 .partners .partners_item {
   width: 124px;
@@ -541,6 +541,28 @@ body {
   font-size: 16px;
   line-height: 16px;
 }
+.modal-content {
+  border: none;
+  border-radius: 0;
+}
+.modal-header {
+  border-bottom: 0;
+}
+.modal-footer {
+  border-top: 0;
+}
+.modal-footer button {
+  margin: 0 auto;
+  background: #3363BE;
+  border-radius: 0;
+  width: 164px;
+  height: 52px;
+}
+.modal-body p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #354D7A;
+}
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) {
   body {
@@ -690,6 +712,12 @@ body {
   .inner_footer_block {
     margin-top: 5%;
   }
+  .top_header__phone_number:before {
+    vertical-align: top;
+  }
+  .tariff__button {
+    margin: 10% auto;
+  }
 }
 @media (min-width: 576px) {
   .mobile_top_head {
@@ -717,9 +745,6 @@ body {
   }
   .top_header {
     width: auto;
-  }
-  .top_header__phone_number {
-    font-size: 20px;
   }
   .header__info {
     margin: 5% 0 0 5%;
@@ -770,5 +795,8 @@ body {
   }
   .header__inner {
     background: none;
+  }
+  .top_header__phone_number {
+    font-size: 20px;
   }
 }

@@ -1,6 +1,7 @@
 <?php
 $to = "stepgt@mail.ru, 22012764@mail.ru";
 $subject = "Заявку на бесплатную консультацию";
+$subject = "Заявка на бесплатную консультацию kreditniibroker.ru";
 //
 $message = "<p>Имя: $_POST[name]</p>";
 $message .= "<p>Телефон: $_POST[phone]</p>";
@@ -12,12 +13,5 @@ $header .= "Cc:stepgs@yandex.ru \r\n";
 $header .= "MIME-Version: 1.0\r\n";
 $header .= "Content-type: text/html\r\n";
 //
-$retval = mail($to, $subject, $message, $header);
-
-if ($retval == TRUE) {
-  echo "Сообщение успешно отправлено...";
-}
-else {
-  echo "Сообщение не может быть отправлено...";
-}
+mail($to, $subject, $message, $header);
 ?>

@@ -28,8 +28,19 @@ $(function () {
       }
     });
   });
+  // Mask
+  $("#phone").inputmask({'mask': '+7 (999) 999-9999'});
 
-  $(":input").inputmask();
-
-  $("#phone").inputmask({"mask": "+7 (999) 999-9999"});
+  $('.header__form form').submit(function (e) {
+    e.preventDefault();
+    $.ajax({
+      url: $(this).attr('action')
+    }).done(function (response) {
+      var $modal = $('.modal');
+      $modal.modal('show');
+      $modal.on('hide.bs.modal', function (e) {
+        $('.header__form form input').val('')
+      })
+    });
+  });
 });
