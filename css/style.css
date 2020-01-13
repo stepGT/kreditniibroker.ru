@@ -13,7 +13,7 @@ body {
   margin: 0 auto;
 }
 .inner_footer_block {
-  margin-top: 2%;
+  margin: 2% auto;
 }
 .top_header__phone {
   text-align: left;
@@ -790,9 +790,6 @@ body {
   }
 }
 @media (min-width: 768px) {
-  .header__form form h3 {
-    width: 380px;
-  }
   .header__inner {
     background: none;
   }
