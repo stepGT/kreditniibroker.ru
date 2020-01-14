@@ -615,6 +615,7 @@ body {
   }
   .top_header__phone_number {
     font-size: 14px;
+    margin-right: 18px;
   }
   .header__form {
     padding: 0;
