@@ -30,7 +30,7 @@ body {
 }
 .top_header__phone_number:before {
   content: url('../svg/phone.svg');
-  padding-right: 10px;
+  padding-right: 3px;
   vertical-align: sub;
 }
 .top_header__mailto {
