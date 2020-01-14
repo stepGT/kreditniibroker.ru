@@ -725,6 +725,9 @@ body {
   .tariff__button {
     margin: 10% auto;
   }
+  .under_header__text {
+    height: auto;
+  }
 }
 @media (min-width: 576px) {
   .mobile_top_head {
