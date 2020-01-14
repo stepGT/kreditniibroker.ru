@@ -647,6 +647,10 @@ body {
     font-size: 14px;
     line-height: 22px;
   }
+  .under_header__text:after {
+    content: '';
+    position: static;
+  }
   .top_content h2 {
     font-size: 20px;
     line-height: 26px;
@@ -779,9 +783,6 @@ body {
   .header__form__wrap {
     background: #f0f4fc;
   }
-  .under_header {
-    height: 236px;
-  }
   .under_header__text:nth-child(2) {
     padding: 0;
   }
@@ -791,6 +792,10 @@ body {
   .under_header__line_desktop {
     display: none;
   }
+  .under_header__text:after {
+    content: '';
+    position: static;
+  }
 }
 @media (min-width: 768px) {
   .header__inner {
@@ -798,5 +803,8 @@ body {
   }
   .top_header__phone_number {
     font-size: 20px;
+  }
+  .under_header {
+    height: 236px;
   }
 }
