@@ -283,7 +283,6 @@ body {
   margin-bottom: 3%;
 }
 .tariff__slick .tariff__item {
-  width: 232px !important;
   margin-right: 0.9%;
 }
 .tariff__slick .tariff__item:first-child {
@@ -615,7 +614,7 @@ body {
   }
   .top_header__phone_number {
     font-size: 14px;
-    margin-right: 18px;
+    margin-right: 4px;
   }
   .header__form {
     padding: 0;
@@ -812,5 +811,14 @@ body {
   }
   .under_header__line {
     margin: 1% auto;
+  }
+}
+@media (max-width: 320px) {
+  .top_header__phone_number {
+    font-size: 12px;
+    margin-right: 0;
+  }
+  .top_header__mailto {
+    font-size: 12px;
   }
 }
