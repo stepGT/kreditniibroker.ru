@@ -45,4 +45,10 @@ $(function () {
       })
     });
   });
+
+  $('button.tariff__button_scroll').click(function () {
+    $([document.documentElement, document.body]).animate({
+      scrollTop: $('.header__form__button_target').offset().top
+    }, 2000);
+  });
 });
