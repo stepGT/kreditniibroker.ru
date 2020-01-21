@@ -3,18 +3,7 @@ $(function () {
     centerMode: true,
     adaptiveHeight: true,
     infinite: false,
-    centerPadding: '5%',
-    responsive: [
-      {
-        breakpoint: 480,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '50px',
-          slidesToShow: 1
-        }
-      }
-    ]
+    centerPadding: '0'
   });
   //
   $('.header__form form input').keyup(function () {

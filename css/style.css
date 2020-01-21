@@ -283,6 +283,7 @@ body {
   margin-bottom: 3%;
 }
 .tariff__slick .tariff__item {
+  width: 232px!important;
   margin-right: 0.9%;
 }
 .tariff__slick .tariff__item:first-child {
