@@ -4,7 +4,7 @@ $(function () {
     adaptiveHeight: true,
     infinite: false,
     variableWidth: true,
-    arrows: true,
+    arrows: false,
     centerMode: true
   });
   //
