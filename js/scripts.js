@@ -1,9 +1,11 @@
 $(function () {
   $('.tariff__slick').slick({
-    centerMode: true,
+    dots: true,
     adaptiveHeight: true,
     infinite: false,
-    centerPadding: '0'
+    variableWidth: true,
+    arrows: true,
+    centerMode: true
   });
   //
   $('.header__form form input').keyup(function () {
