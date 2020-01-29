@@ -1,5 +1,5 @@
 <?php
-$to      = "stepgt@mail.ru, 22012764@mail.ru, 101@businessinvets24.ru";
+$to      = "stepgt@mail.ru, 22012764@mail.ru, 101@businessinvest24.ru";
 $subject = "Заявка на бесплатную консультацию kreditniibroker.ru";
 //
 $message  = "<p>Имя: $_POST[name]</p>";
