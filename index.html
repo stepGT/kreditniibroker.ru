@@ -133,39 +133,47 @@
         </div>
     </div>
 
-    <!--<div class="row d-none d-md-block d-lg-none header__form__wrap">
+    <div class="row d-none d-md-block d-lg-none header__form__wrap">
         <div class="col-md-12">
-            <div class="header__form_mobile">
-                <form action="handler.php">
+            <div class="header__form_tablet header__form__button_target">
+                <form method="post" action="handler.php">
                     <h3>Оставьте заявку на бесплатную консультацию</h3>
                     <div class="header__form_input">
-                        <label for="time_mobile">Сумма, &#8381;</label>
-                        <input required type="text" placeholder="Сумма в рублях" id="time_mobile"/>
+                        <label for="summ1">Сумма, &#8381;</label>
+                        <input type="text" required name="summ" placeholder="Сумма в рублях" id="summ1"/>
                     </div>
                     <div class="header__form_input">
-                        <label for="summ_mobile">Срок(лет)</label>
-                        <input required type="text" placeholder="Срок (лет)" id="summ_mobile"/>
+                        <label for="time1">Срок(лет)</label>
+                        <input type="text" required name="time" placeholder="Срок (лет)" id="time1"/>
                     </div>
                     <div class="header__form_input">
-                        <label for="name_mobile"></label>
-                        <input required type="text" placeholder="Имя" id="name_mobile"/>
+                        <label for="name1"></label>
+                        <input type="text" required name="name" placeholder="Имя" id="name1"/>
                     </div>
                     <div class="header__form_input">
-                        <label for="phone_mobile"></label>
-                        <input required type="text" placeholder="+7" id="phone_mobile"/>
-                    </div>
-                    <div class="header__form__result">
-                        <div>Ежемесячный платеж</div>
-                        <div class="header__form__result_digit">4 702 &#8381;</div>
+                        <label for="phone1"></label>
+                        <input type="text" required name="phone" placeholder="+7" id="phone1"/>
                     </div>
                     <div class="header__form__button">
                         <button disabled>Получить консультацию</button>
                     </div>
-
+                    <div class="modal fade" tabindex="-1" role="dialog">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header"></div>
+                                <div class="modal-body">
+                                    <p>Заявка отправлена!</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Понятно</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>
-    </div>-->
+    </div>
 
     <div class="row under_header">
         <div class="col">

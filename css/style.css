@@ -106,7 +106,7 @@ body {
   margin-top: 5%;
   font-weight: normal;
 }
-.header__form {
+.header__form, .header__form_tablet {
   background: #fff;
   width: 470px;
   height: 548px;
@@ -115,27 +115,37 @@ body {
   margin: 60px auto;
   padding-top: 30px;
 }
+.header__form_tablet {
+  background: #f0f4fc;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 488px;
+}
 .header__form_sign span {
   color: #7e91b4;
 }
-.header__form form label {
+.header__form form label,
+.header__form_tablet form label {
   display: none;
   color: #354d7a;
   font-size: 12px;
   position: relative;
   top: 20px;
 }
-.header__form form {
+.header__form form,
+.header__form_tablet form {
   text-align: center;
 }
-.header__form form h3 {
+.header__form form h3,
+.header__form_tablet form h3 {
   color: #354d7a;
   font-size: 24px;
   line-height: 32px;
   font-weight: normal;
   text-align: center;
 }
-.header__form form input {
+.header__form form input,
+.header__form_tablet form input {
   width: 280px;
   height: 69px;
   background: transparent;
@@ -149,10 +159,15 @@ body {
 .header__form form input#name,
 .header__form form input#summ,
 .header__form form input#time,
-.header__form form input#phone {
+.header__form form input#phone,
+.header__form_tablet form input#name1,
+.header__form_tablet form input#summ1,
+.header__form_tablet form input#time1,
+.header__form_tablet form input#phone1 {
   border-bottom: 1px solid #354d7a;
 }
-.header__form form ::placeholder {
+.header__form form ::placeholder,
+.header__form_tablet form ::placeholder {
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
